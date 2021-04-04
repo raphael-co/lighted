@@ -1,0 +1,41 @@
+
+
+.logo{
+    height: 40%;
+
+}
+
+.form{
+    .btnLogin{
+        --background: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
+        --backgroun-hover: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
+        --background-focused: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7); 
+        --backgroun-activated: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
+    }
+
+    .errorEmail{
+        border-bottom: #ea0808;
+        --highlight-background: #ea0808; 
+    }
+    
+    .goodEmail{
+        border-bottom: #9008ea;
+        --highlight-background: #9008ea; 
+    }
+    
+    .forgot{
+        text-align: end;
+        margin-top: 0;
+    }
+}
+
+p{
+    text-align: center;
+    font-size: 75%;
+}
+
+p,
+a {
+    color: #c9c9c9 !important;
+    text-align: center;
+}
