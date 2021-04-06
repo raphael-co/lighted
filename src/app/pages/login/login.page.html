@@ -1,9 +1,30 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+
+    <ion-row class="logo">
+        <ion-col size="12" class="ion-align-self-center">
+            <img class="img" src="assets/icon/logo2.png" alt="">
+            <p class="marque">LIGHTED</p>
+        </ion-col>
+    </ion-row>
+    <ion-row class="form">
+        <ion-col size="12">
+            <ion-item [ngClass]="isErrorMail ? 'errorEmail' : 'goodEmail'">
+                <ion-label position="floating">Email</ion-label>
+                <ion-input type="email" [(ngModel)]="email"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="floating">Password</ion-label>
+                <ion-input type="password" [(ngModel)]="password"></ion-input>
+            </ion-item>
+        </ion-col>
+        <ion-col size="12">
+            <p class="forgot" (click)="forgotPassword()">Forgot Password ?</p>
+        </ion-col>
+        <ion-col size="12">
+            <ion-button (click)="loginForm()" expand="full" class="btnLogin">Login</ion-button>
+        </ion-col>
+
+    </ion-row>
+    <p> <a routerLink="/register">You don't have any account ? Register</a> </p>
 
 </ion-content>

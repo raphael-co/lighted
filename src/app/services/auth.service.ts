@@ -1,9 +1,28 @@
 import { Injectable } from '@angular/core';
 
+import { HttpClient } from '@angular/common/http';
+
+
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class AuthService {
 
-  constructor() { }
+    url: string = 'http://localhost:8081/auth'; 
+
+    constructor(private http: HttpClient) {}
+
+    login(email: string, password: string) {
+        return new Promise((resolve, rejects) => {
+            this.http.post(this.url + '/login', { email: email, password: password }).subscribe((data: any) => {
+                (!data.theToken) ? rejects(false): resolve(data);
+                console.log(data.theToken)
+            });
+        });
+    }
+
+
+    getProfile() {
+        return this.http.get(this.url + '/profil');
+    }
 }
