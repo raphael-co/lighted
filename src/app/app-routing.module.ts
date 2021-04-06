@@ -31,6 +31,14 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
   },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'panier',
+    loadChildren: () => import('./pages/panier/panier.module').then( m => m.PanierPageModule)
+  },
 ];
 
 @NgModule({

@@ -40,8 +40,8 @@ export class LoginPage implements OnInit {
         }
         console.log(theToken);
         if (theToken !== undefined && theToken !== null)
-            this.router.navigate(['/home'])
-            console.log(theToken.decode)
+            this.router.navigate(['/tabs'])
+            
     }
 
     async forgotPassword() {
@@ -76,7 +76,7 @@ export class LoginPage implements OnInit {
             }
             await this.loading.dismiss();
             
-            this.router.navigate(['/home'])
+            this.router.navigate(['/tabs'])
         }).catch(async() => {
             this.email = ''
             this.password = ''
