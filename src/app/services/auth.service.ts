@@ -16,7 +16,7 @@ export class AuthService {
     login(email: string, password: string) {
         return new Promise((resolve, rejects) => {
             this.http.post(this.url + '/login', { email: email, password: password }).subscribe((data: any) => {
-                (!data.success) ? rejects(false): resolve(data);
+                (!data.token) ? rejects(false): resolve(data);
             });
         });
     }
