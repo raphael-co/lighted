@@ -1,5 +1,8 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
-Event
+import { TabsPage } from '../tabs/tabs.page';
+import { Router } from '@angular/router';
+import detailProduct from '../../../assets/detailProduct.json';
+import { not } from '@angular/compiler/src/output/output_ast';
 
 @Component({
   selector: 'app-search',
@@ -8,29 +11,54 @@ Event
 })
 export class SearchPage implements OnInit {
 
+  prods: any = detailProduct.product
   ishidden: boolean = false;
   searchbar:string = ""
   editedText: string = ""
-  constructor() { }
+  arrayProduct = []
+  
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
   public show_search(key){
+    let backspace = false
+
     this.ishidden = true;
     if(key != "Backspace"){
+      backspace = false
       this.searchbar += key
-      console.log(this.searchbar);
+      this.getProductOnSearch(this.searchbar)
     } else {
+      backspace = true
       this.editedText = this.searchbar.slice(0, -1) 
       this.searchbar = this.editedText
+      this.getProductOnSearch(this.searchbar)
     }
 
     console.log(this.searchbar);
     
     if(this.searchbar == ""){
       this.ishidden = false;
+      this.arrayProduct = [];
     }
+
+  }
+
+  getProductOnSearch(product){
+    this.arrayProduct = []
+    console.log(detailProduct.product.length);
+    for(let i = 0; i < detailProduct.product.length; i++){
+
+      this.prods = detailProduct.product[i].title.includes(product)
+
+      if(this.prods == true)
+      {
+        this.arrayProduct.push(detailProduct.product[i].title)
+      }
+    } 
+    console.log(this.arrayProduct);
     
   }
 

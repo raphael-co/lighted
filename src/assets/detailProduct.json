@@ -1,0 +1,68 @@
+{
+    "product": [
+      {
+        "name": "5555-k",
+        "title": "sony",
+        "categorie": "Hybride",
+        "image": "",
+        "type": "",
+        "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo. L'utilisation du flash est possible jusqu'à 1/400s en plein format (1/500s en APS-C) et aussi désormais disponible en obturation électronique jusqu'à 1/200s sans aucun bruit de déclenchement.\n AUX FRONTIERES DE LA VIDÉO :Enregistrement interne en 8K jusqu'à 30p en 4:2:0 10bit et jusqu'à 4k 120p en 4:2:2 10 bits. Grâce au rendu S-Cinetone inclus et à la stabilisation de l'image mécanique et active, les réalisateurs, directeurs de la photographie et les créateurs vidéo peuvent obtenir un rendu d'image 'cinéma' à la hauteur des caméras Sony de la gamme 'Cinema Line'. UN BOÎTIER FIABLE POUR LES SITUATIONS EXIGEANTES : \n meilleure résistance à la poussière et à l'humidité, nouvel obturateur mécanique de haute fiabilité avec 500 000 cycles d'obturation et connecteur de type USB-C 3.2 (Power Delivery) encore plus rapide permettant l'alimentation et une recharge plus rapide de la batterieLes plus du produit : \n La mission du système A consiste à offrir aux créateurs les moyens de réaliser leurs rêves. L'A1 en est l'incarnation la plus puissante à ce jour. L'A1 combine superbement haute résolution et vitesse étonnante. La lecture ultra-rapide du capteur de 50,1 mégapixels autorise des rafales jusqu'à 30 images/s1 avec suivi de la mise au point et de l'exposition grâce à l'obturateur électronique. Parfait pour la photographie sportive ou sur le vif. La vue ininterrompue, sans voile noir, vous laisse réagir instantanément et avec fluidité. Le viseur électronique est rafraîchi à 240 images/s afin de minimiser la latence en rafale.",
+        "prix": "480"
+      },
+      {
+        "name": "4879-t" ,
+        "title": "canon",
+        "categorie": "Reflexe",
+        "image": ""
+      },
+      {
+        "name":"2240X" ,
+        "title": "gopro",
+        "categorie": "sport",
+        "image": "",
+        "type": ""
+      },
+      {
+        "name": "97856" ,
+        "title": "lg",
+        "categorie": "Compact & Bridge",
+        "image": "",
+        "type": ""
+      },
+      {
+        "name": "2242X" ,
+        "title": "lg",
+        "categorie": "CamSport",
+        "image": "",
+        "type": ""
+      },
+      {
+        "name": "2248Y" ,
+        "title": "polaroïd",
+        "categorie": "Instantané",
+        "image": "",
+        "type": ""
+      },
+      {
+        "name": "12345P" ,
+        "title": "lg",
+        "categorie": "Objectifs",
+        "image": "",
+        "type": ""
+      },
+      {
+        "name": "98745-Z" ,
+        "title": "canon",
+        "categorie": "Accessoire",
+        "image": "",
+        "type": ""
+      },
+      {
+        "name": "98745-Z" ,
+        "title": "canon",
+        "categorie": "Accessoire",
+        "image": "",
+        "type": ""
+      }
+    ]
+  }
