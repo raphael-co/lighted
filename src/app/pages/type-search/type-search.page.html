@@ -10,5 +10,19 @@
 </ion-header>
 
 <ion-content>
-  
+  <ion-row *ngFor="let product of arrayProd" >
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>{{product.title}}-{{product.name}} </ion-card-subtitle>
+        <img src=" {{img}}{{product.image}}.png" alt="" style="width: 60%;">
+      </ion-card-header>
+    
+      <ion-card-content>
+          <p> prix :  {{product.prix}} €</p>
+          
+          <p> description <i class="ion-text-wrap" style="font-size: small;"> : {{product.description}} </i> </p>
+      </ion-card-content>
+    
+    </ion-card>
+  </ion-row>
 </ion-content>

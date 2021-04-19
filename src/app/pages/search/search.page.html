@@ -49,5 +49,11 @@
       <ion-label class="item">Accessoire <img class="search_image" src="../../../assets/icon/accessoire.png" /></ion-label>
     </ion-item>
   </ion-card>
+
+  <ion-list *ngFor="let product of arrayProduct">
+    <ion-item routerLink="/type-search" [state]="{ example: product }">
+      <ion-label style="color: black;">{{ product }}</ion-label>
+    </ion-item>
+  </ion-list>
   
 </ion-content>

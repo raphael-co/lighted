@@ -48,14 +48,15 @@ export class SearchPage implements OnInit {
 
   getProductOnSearch(product){
     this.arrayProduct = []
+    let thisProduct = ""
     console.log(detailProduct.product.length);
     for(let i = 0; i < detailProduct.product.length; i++){
-
       this.prods = detailProduct.product[i].title.includes(product)
 
       if(this.prods == true)
       {
-        this.arrayProduct.push(detailProduct.product[i].title)
+        thisProduct = detailProduct.product[i].title + "-" + detailProduct.product[i].name
+        this.arrayProduct.push(thisProduct)
       }
     } 
     console.log(this.arrayProduct);

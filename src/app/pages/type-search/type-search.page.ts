@@ -11,25 +11,37 @@ import { HttpClient } from '@angular/common/http';
 })
 export class TypeSearchPage implements OnInit {
 
-  
+  description_hidden = true
   prods : any = detailProduct.product;
   item:any = "";
   sub: any;
+  isProd: boolean;
+  arrayProd = [];
+  img = "../../../assets/img/"
 
   constructor(private router: Router,private route: ActivatedRoute, public http: HttpClient) {}
 
    
   ngOnInit() {
 
-    this.item = this.router.getCurrentNavigation().extras.state
+    this.item = this.router.getCurrentNavigation().extras.state.example
     console.log(this.item);
     console.log(this.prods);
 
-    for(let i = 0; i < this.prods.length; i++){
-      console.log(this.prods[i].name);
-    } 
-    
+    this.getProduct();
+     
+    console.log(this.arrayProd);
+
   }
 
+  getProduct(){
+    let nameProd
+    for(let i = 0; i < this.prods.length; i++){
+      nameProd = this.prods[i].title+"-"+this.prods[i].name
+      if(this.prods[i].categorie == this.item || nameProd == this.item){
+        this.arrayProd.push(this.prods[i]);
+      }
+    }
+  }
 
 }
