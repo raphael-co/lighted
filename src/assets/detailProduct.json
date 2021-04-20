@@ -1,0 +1,75 @@
+{
+    "product": [
+      {
+        "name": "5555-k",
+        "title": "sony",
+        "categorie": "Hybride",
+        "image": "hybride1",
+        "type": "",
+        "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo.",
+        "prix": "480"
+      },
+      {
+        "name": "4879-t" ,
+        "title": "canon",
+        "categorie": "Reflexe",
+        "image": "canon_reflex"
+      },
+      {
+        "name":"2240X" ,
+        "title": "gopro",
+        "categorie": "CamSport",
+        "image": "goPro",
+        "type": "",
+        "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo."
+      },
+      {
+        "name": "97856" ,
+        "title": "canon",
+        "categorie": "Compact & Bridge",
+        "image": "compactBridge",
+        "type": "",
+        "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo."
+      },
+      {
+        "name": "2242X" ,
+        "title": "gopro",
+        "categorie": "CamSport",
+        "image": "goPro",
+        "type": "",
+        "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo."
+      },
+      {
+        "name": "2248Y" ,
+        "title": "polaroïd",
+        "categorie": "Instantané",
+        "image": "polaroid",
+        "type": "",
+        "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo."
+      },
+      {
+        "name": "12345P" ,
+        "title": "canon",
+        "categorie": "Objectifs",
+        "image": "objectif",
+        "type": "",
+        "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo."
+      },
+      {
+        "name": "98745-Z" ,
+        "title": "fugifilm",
+        "categorie": "Accessoire",
+        "image": "accessoire",
+        "type": "",
+        "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo."
+      },
+      {
+        "name": "98745-Z" ,
+        "title": "canon",
+        "categorie": "Accessoire",
+        "image": "accessoire-canon",
+        "type": "",
+        "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo."
+      }
+    ]
+  }
