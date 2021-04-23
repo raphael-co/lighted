@@ -8,7 +8,7 @@ const routes: Routes = [
   // },
   {
     path: '',
-    redirectTo: 'search',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {
@@ -38,7 +38,8 @@ const routes: Routes = [
   {
     path: 'panier',
     loadChildren: () => import('./pages/panier/panier.module').then( m => m.PanierPageModule)
-  },  {
+  },
+  {
     path: 'type-search',
     loadChildren: () => import('./pages/type-search/type-search.module').then( m => m.TypeSearchPageModule)
   },

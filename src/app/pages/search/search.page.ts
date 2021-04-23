@@ -1,8 +1,9 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
-import { TabsPage } from '../tabs/tabs.page';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import detailProduct from '../../../assets/detailProduct.json';
-import { not } from '@angular/compiler/src/output/output_ast';
+import { Routes } from '@angular/router';
+import { TabsPage } from '../tabs/tabs.page';
+
 
 @Component({
   selector: 'app-search',
