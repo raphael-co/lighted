@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06da52ea-f648-4bd8-a4f8-87ac7621586a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/interfaces/product.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/interfaces/user-register.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/pages/home/home.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/login/login.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/pages/login/login.page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/profil/profil.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/pages/profil/profil.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/profil/profil.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/pages/profil/profil.page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/register/register.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/pages/register/register.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/register/register.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/pages/register/register.page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/register/register.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/pages/register/register.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/search/search.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/pages/search/search.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/search/search.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/pages/search/search.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/type-search/type-search-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/type-search/type-search.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/type-search/type-search.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/type-search/type-search.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/type-search/type-search.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/pages/type-search/type-search.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/app/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/services/product.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/services/product.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/detailProduct.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/icon/accessoire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/icon/cam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/icon/compact_bridge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/icon/instant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/icon/objectif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/icon/photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/icon/reflex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/img/accessoire-canon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/img/accessoire-canon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/img/accessoire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/img/canon_reflex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/img/compactBridge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/img/goPro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/img/hybride1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/img/objectif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/img/objetif.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/img/polaroid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/theme/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/theme/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1raB7SBEvH5kueYwGs3isElfoHg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06da52ea-f648-4bd8-a4f8-87ac7621586a" name="Default Changelist" comment="" />
+      <created>1619204152968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619204152968</updated>
+    </task>
+    <servers />
+  </component>
+</project>
