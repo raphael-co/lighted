@@ -25,6 +25,8 @@ export class AuthService {
         return new Promise((resolve, rejects) => {
             this.http.post(this.url + '/register', user).subscribe((data: any) => {
                 (!data.token) ? rejects(data.message): resolve(data);
+                
+
             });
         });
     }

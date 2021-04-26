@@ -19,6 +19,14 @@ export class RegisterPage implements OnInit {
     isErrorMail: boolean = true;
     isErrorPhone: boolean = true;
     user: UserRegister = { avatar: '', prenom: '', nom: '', email: '', dateNaiss: '',telephone: '', password: '', confirm_password: '', adresse: '', zipcode: '', ville: '',pays: '1'};
+    isPrenom: boolean;
+    isNom: boolean = false;
+    isDateNaiss: boolean;
+    isPassword: boolean;
+    isRePass: boolean;
+    isAdresse: boolean;
+    isCodePostale: boolean;
+    isVille: boolean;
 
     constructor(
         private router: Router,
@@ -42,7 +50,8 @@ export class RegisterPage implements OnInit {
 
     async register() {
         const load = await this.loading.create({
-            message: 'Please wait...',
+            message: 'Patientez...',
+            duration: 2000
         });
         await load.present();
         this.user.nom_utilisateur = this.user.email.split('@')[0];
@@ -51,13 +60,13 @@ export class RegisterPage implements OnInit {
             await this.loading.dismiss();
             this.router.navigate(['/login']);
         }).catch(async(err) => {
-            console.log(err);
+            await this.loading.dismiss();
             const toast = await this.toast.create({
                 message: err,
-                duration: 2000
+                duration: 8000
             });
             toast.present();
-            await this.loading.dismiss();
+            // await this.loading.dismiss();
         })
     }
 
@@ -78,6 +87,80 @@ export class RegisterPage implements OnInit {
             // Handle error
             alert(err)
         });
+    }
+
+    check_info(content: string){
+        if(content == "nom"){
+            if(this.user.nom.length > 0){
+                this.isNom = false
+            } else {
+                this.isNom = true
+            }
+        }
+
+        if(content == "prenom"){
+            if(this.user.prenom.length > 0){
+                this.isPrenom = false
+            } else {
+                this.isPrenom = true
+            }
+        }
+
+        if(content == "dateNaiss"){
+            if(this.user.dateNaiss.toString() == ""){
+                this.isDateNaiss = true
+            } else {
+                this.isDateNaiss = false
+            }
+        }
+
+        if(content == "mdp"){
+            if(this.user.password.length > 5){
+                this.isPassword = false
+            } else {
+                this.isPassword = true
+            }
+        }
+
+        if(content == "remdp"){
+            if(this.user.confirm_password == this.user.password){
+                this.isRePass = false
+            } else {
+                this.isRePass = true
+            }
+        }
+
+        if(content == "remdp"){
+            if(this.user.confirm_password == this.user.password){
+                this.isRePass = false
+            } else {
+                this.isRePass = true
+            }
+        }
+
+        if(content == "adresse"){
+            if(this.user.adresse.length > 0){
+                this.isAdresse = false
+            } else {
+                this.isAdresse = true
+            }
+        }
+
+        if(content == "cp"){
+            if(this.user.zipcode != null){
+                this.isCodePostale = false
+            } else {
+                this.isCodePostale = true
+            }
+        }
+
+        if(content == "ville"){
+            if(this.user.ville.length > 0){
+                this.isVille = false
+            } else {
+                this.isVille = true
+            }
+        }
     }
 
 }
