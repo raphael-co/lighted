@@ -1,7 +1,0 @@
-{
-  "name": "lightED",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
