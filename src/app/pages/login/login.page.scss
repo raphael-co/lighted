@@ -11,12 +11,16 @@
     }
 }
 
-.form {
-    .btnLogin {
-        --background: linear-gradient(to bottom, #f7f7f7, #e4e2ea, #d1ccdd, #c0b7cf, #b0a2c1);
-        --background-hover: linear-gradient(to bottom, #f7f7f7, #e4e2ea, #d1ccdd, #c0b7cf, #b0a2c1);
-        --background-focused: linear-gradient(to bottom, #f7f7f7, #e4e2ea, #d1ccdd, #c0b7cf, #b0a2c1);
-        --background-activated: linear-gradient(to bottom, #f7f7f7, #e4e2ea, #d1ccdd, #c0b7cf, #b0a2c1);
+.type_app{
+    --background: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
+}
+
+.form{
+    .btnLogin{
+        --background: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
+        --backgroun-hover: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
+        --background-focused: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7); 
+        --backgroun-activated: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
     }
     .errorEmail {
         border-bottom: #ff0062;
@@ -39,3 +43,13 @@ a {
     color: #c9c9c9;
     text-align: center;
 }
+
+.item{
+    color: white !important;
+}
+
+.search_image{
+    width: 24%;
+    float: right;
+}
+
