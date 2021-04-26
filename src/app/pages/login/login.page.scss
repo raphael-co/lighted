@@ -1,0 +1,41 @@
+.logo {
+    height: 40%;
+    .img {
+        margin-top: 4%;
+    }
+    .marque {
+        font-size: xx-large;
+        margin: 0;
+        color: #B0A2C1;
+        text-align: center;
+    }
+}
+
+.form {
+    .btnLogin {
+        --background: linear-gradient(to bottom, #f7f7f7, #e4e2ea, #d1ccdd, #c0b7cf, #b0a2c1);
+        --background-hover: linear-gradient(to bottom, #f7f7f7, #e4e2ea, #d1ccdd, #c0b7cf, #b0a2c1);
+        --background-focused: linear-gradient(to bottom, #f7f7f7, #e4e2ea, #d1ccdd, #c0b7cf, #b0a2c1);
+        --background-activated: linear-gradient(to bottom, #f7f7f7, #e4e2ea, #d1ccdd, #c0b7cf, #b0a2c1);
+    }
+    .errorEmail {
+        border-bottom: #ff0062;
+        --border-color: #ff0062;
+        --highlight-background: #ff0062;
+    }
+    .goodEmail {
+        border-bottom: #12eb48;
+        --border-color: #12eb48;
+        --highlight-background: #12eb48;
+    }
+    .forgot {
+        margin-top: 0;
+        text-align: end;
+    }
+}
+
+p,
+a {
+    color: #c9c9c9;
+    text-align: center;
+}

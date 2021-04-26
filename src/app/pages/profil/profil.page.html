@@ -1,0 +1,22 @@
+<ion-content>
+  <ion-row align-items no-padding class="photoDouble">
+      <div class="photo1">
+      </div>
+  </ion-row>
+  <ion-row align-items no-padding class="photoDouble">
+    <p>email de l'utilisateur (a rajouter)</p>
+  </ion-row>
+  <ion-item class="menu" routerLink="/minfo-profil">
+    <ion-icon class="icon" name="person"></ion-icon><ion-label style="position: bottom;" class="item">Mes informations profile</ion-label>
+  </ion-item>
+  <ion-item class="menu" routerLink="/mpayement">
+    <ion-icon class="icon" name="card"></ion-icon><ion-label class="card">Mes moyens de paiement</ion-label>
+  </ion-item>
+  <ion-item class="menu" routerLink="/mcommandes">
+    <ion-icon class="icon" name="cube"></ion-icon><ion-label class="item">Mes commandes</ion-label>
+  </ion-item>
+  <ion-item class="menu" (click)="logout()">
+    <ion-icon class="icon" name="enter"></ion-icon><ion-label class="item">Déconnexion</ion-label>
+  </ion-item>
+  
+</ion-content>
