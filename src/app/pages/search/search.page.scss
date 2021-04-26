@@ -1,0 +1,45 @@
+.logo {
+    height: 40%;
+    .img {
+        margin-top: 4%;
+    }
+    .marque {
+        font-size: xx-large;
+        margin: 0;
+        color: #B0A2C1;
+        text-align: center;
+    }
+}
+
+.type_app{
+    --background: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
+}
+
+.form{
+    .btnLogin{
+        --background: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
+        --backgroun-hover: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
+        --background-focused: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7); 
+        --backgroun-activated: linear-gradient(to right top, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);
+    }
+    
+    .forgot {
+        margin-top: 0;
+        text-align: end;
+    }
+}
+
+p,
+a {
+    color: #c9c9c9;
+    text-align: center;
+}
+
+.item{
+    color: white !important;
+}
+
+.search_image{
+    width: 24%;
+    float: right;
+}

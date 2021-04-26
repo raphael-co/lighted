@@ -39,6 +39,22 @@ const routes: Routes = [
     path: 'panier',
     loadChildren: () => import('./pages/panier/panier.module').then( m => m.PanierPageModule)
   },
+  {
+    path: 'minfo-profil',
+    loadChildren: () => import('./pages/minfo-profil/minfo-profil.module').then( m => m.MinfoProfilPageModule)
+  },
+  {
+    path: 'mpayement',
+    loadChildren: () => import('./pages/mpayement/mpayement.module').then( m => m.MpayementPageModule)
+  },
+  {
+    path: 'mcommandes',
+    loadChildren: () => import('./pages/mcommandes/mcommandes.module').then( m => m.McommandesPageModule)
+  },
+  {
+    path: 'type-search',
+    loadChildren: () => import('./pages/type-search/type-search.module').then( m => m.TypeSearchPageModule)
+  },
 ];
 
 @NgModule({

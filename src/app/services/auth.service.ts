@@ -25,4 +25,6 @@ export class AuthService {
     getProfile() {
         return this.http.get(this.url + '/profil');
     }
+        
+    
 }
