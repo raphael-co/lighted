@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 
 import { UserRegister } from '../interfaces/user-register';
 
+
 @Injectable({
     providedIn: 'root'
 })
@@ -16,7 +17,8 @@ export class AuthService {
     login(email: string, password: string) {
         return new Promise((resolve, rejects) => {
             this.http.post(this.url + '/login', { email: email, password: password }).subscribe((data: any) => {
-                (!data.token) ? rejects(false): resolve(data);
+                (!data.token) ? rejects(data.message): resolve(data);
+              
             });
         });
     }
@@ -31,7 +33,10 @@ export class AuthService {
         });
     }
 
+
     getProfile() {
         return this.http.get(this.url + '/profil');
     }
+        
+    
 }
