@@ -10,14 +10,14 @@ import { UserRegister } from '../interfaces/user-register';
 })
 export class AuthService {
 
-    url: string = 'http://localhost:8081/auth'; 
+    url: string = 'https://lighted-14685.nodechef.com/auth/'; 
 
     constructor(private http: HttpClient) {}
 
     login(email: string, password: string) {
         return new Promise((resolve, rejects) => {
             this.http.post(this.url + '/login', { email: email, password: password }).subscribe((data: any) => {
-                (!data.token) ? rejects(false): resolve(data);
+                (!data.token) ? rejects(data.message): resolve(data);
               
             });
         });
