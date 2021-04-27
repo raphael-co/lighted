@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TypeSearchPageRoutingModule } from './type-search-routing.module';
+import { MinfoProfilPageRoutingModule } from './minfo-profil-routing.module';
 
-import { TypeSearchPage } from './type-search.page';
+import { MinfoProfilPage } from './minfo-profil.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    TypeSearchPageRoutingModule
+    MinfoProfilPageRoutingModule
   ],
-  declarations: [TypeSearchPage]
+  declarations: [MinfoProfilPage]
 })
-export class TypeSearchPageModule {}
+export class MinfoProfilPageModule {}

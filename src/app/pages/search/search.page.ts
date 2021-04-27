@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+
 import detailProduct from '../../../assets/detailProduct.json';
 import { Routes } from '@angular/router';
 import { TabsPage } from '../tabs/tabs.page';

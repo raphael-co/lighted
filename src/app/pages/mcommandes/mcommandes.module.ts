@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TypeSearchPageRoutingModule } from './type-search-routing.module';
+import { McommandesPageRoutingModule } from './mcommandes-routing.module';
 
-import { TypeSearchPage } from './type-search.page';
+import { McommandesPage } from './mcommandes.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    TypeSearchPageRoutingModule
+    McommandesPageRoutingModule
   ],
-  declarations: [TypeSearchPage]
+  declarations: [McommandesPage]
 })
-export class TypeSearchPageModule {}
+export class McommandesPageModule {}
