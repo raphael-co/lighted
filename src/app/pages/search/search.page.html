@@ -5,7 +5,7 @@
 
 <ion-content>
   <ion-toolbar>
-    <ion-searchbar animated placeholder="Rechercher" class="search_bar" (keyup)="show_search($event.key)"></ion-searchbar>
+    <ion-searchbar (ionClear)="clearAll()" animated placeholder="Rechercher" class="search_bar" (keyup)="show_search($event.key)" value="{{searchbar}}"></ion-searchbar>
   </ion-toolbar>
 
   <ion-card [hidden]=ishidden>

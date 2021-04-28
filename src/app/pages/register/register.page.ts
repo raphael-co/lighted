@@ -56,7 +56,6 @@ export class RegisterPage implements OnInit {
         await load.present();
         this.user.nom_utilisateur = this.user.email.split('@')[0];
         this.auth.register(this.user).then(async(data) => {
-            console.log(data);
             await this.loading.dismiss();
             this.router.navigate(['/login']);
         }).catch(async(err) => {

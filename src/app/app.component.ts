@@ -13,10 +13,8 @@ export class AppComponent {
   constructor(private toast: ToastController) {}
 
   async addProduct(product){
-    console.log(product);
     this.prod_panier.push(product)
     let prod = Object.assign(this.prod_panier)
-    console.log(this.prod_panier);
     
     const toast = await this.toast.create({
       message: "Votre produit à été ajouter au panier",

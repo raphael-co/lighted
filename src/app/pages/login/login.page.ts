@@ -42,7 +42,6 @@ export class LoginPage implements OnInit {
         } else {
             theToken = await this.storage.getItem('theToken')
         }
-        console.log(theToken);
         if (theToken !== undefined && theToken !== null)
             this.router.navigate(['/tabs'])
             
@@ -71,7 +70,6 @@ export class LoginPage implements OnInit {
         });
         await load.present();
         this.auth.login(this.email, this.password).then(async(user: any) => {
-                console.log(this.platform.platforms());
                 if (this.platform.is("desktop")) {
                     localStorage.setItem('theToken', user.theToken)
                     localStorage.setItem('user', JSON.stringify(user.user))
@@ -83,7 +81,6 @@ export class LoginPage implements OnInit {
                 
                 this.router.navigate(['/tabs'])
         }).catch(async(err) => {
-            console.log(err.err);
             const toast = await this.toast.create({
                 message: err,
                 duration: 2000

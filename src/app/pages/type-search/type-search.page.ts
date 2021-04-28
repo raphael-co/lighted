@@ -33,9 +33,6 @@ export class TypeSearchPage implements OnInit {
   ngOnInit() {
 
     this.item = this.router.getCurrentNavigation().extras.state.example
-    console.log(this.item);
-    console.log(this.prods);
-
     this.getProduct();
 
   }

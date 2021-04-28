@@ -39,10 +39,8 @@ export class PanierPage implements OnInit {
     // console.log(this.arrayProd.length);
     if(this.arrayProd.length > 0){
       this.show = true
-      console.log(this.show);
     } else {
       this.show = false
-      console.log(this.show);
     }
     
   }
@@ -60,13 +58,11 @@ export class PanierPage implements OnInit {
           role: 'cancel',
           cssClass: 'secondary',
           handler: (blah) => {
-            console.log('Confirm Cancel: blah');
           }
         }, {
           text: 'Je confirme',
           handler: () => {
             for(let i = 0; i != this.arrayProd.length; i++){
-              console.log(i);
               if(content == this.arrayProd[i].id){
                 delete this.arrayProd[i]
               } else {
@@ -78,7 +74,6 @@ export class PanierPage implements OnInit {
             localStorage.removeItem('Product')
             localStorage.setItem('Product', JSON.stringify(prod));
             this.myDefaultMethodToFetchData();
-            console.log('Confirm Okay');
           }
         }
       ]
@@ -104,7 +99,6 @@ export class PanierPage implements OnInit {
           role: 'cancel',
           cssClass: 'secondary',
           handler: (blah) => {
-            console.log('Confirm Cancel: blah');
           }
         }, {
           text: 'Je confirme',
@@ -126,7 +120,6 @@ export class PanierPage implements OnInit {
             localStorage.removeItem('Product')
             localStorage.setItem('Product', JSON.stringify(prod));
             this.myDefaultMethodToFetchData();
-            console.log('Confirm Okay');
           }
         }
       ]
