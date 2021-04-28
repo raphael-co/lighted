@@ -4,23 +4,27 @@
       <ion-buttons slot="start">
         <ion-back-button></ion-back-button>
       </ion-buttons>
-      <ion-title style="float: right;">{{item.example}}</ion-title>
+      <ion-title style="float: right;">{{item}}</ion-title>
     </ion-toolbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-row *ngFor="let product of arrayProd" >
-    <ion-card>
+    <ion-card class="card-product">
       <ion-card-header>
-        <ion-card-subtitle>{{product.title}}-{{product.name}} </ion-card-subtitle>
+        <ion-card-subtitle style="color: whitesmoke;font-size: 150%;">{{product.title}}-{{product.name}} </ion-card-subtitle>
         <img src=" {{img}}{{product.image}}" alt="" style="width: 60%;">
       </ion-card-header>
     
       <ion-card-content>
+
+          <ion-button (click)="addProduct(product)" color="medium">Ajouter au panier <ion-icon name="add-circle"></ion-icon></ion-button>
+          
           <p> prix :  {{product.prix}} €</p>
           
           <p> description <i class="ion-text-wrap" style="font-size: small;"> : {{product.description}} </i> </p>
+
       </ion-card-content>
     
     </ion-card>

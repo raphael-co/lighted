@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-
+import { ToastController } from '@ionic/angular';
 import detailProduct from '../../../assets/detailProduct.json';
-import { Routes } from '@angular/router';
-import { TabsPage } from '../tabs/tabs.page';
 
 
 @Component({
   selector: 'app-search',
   templateUrl: './search.page.html',
   styleUrls: ['../login/login.page.scss', './search.page.scss'],
+  
 })
 export class SearchPage implements OnInit {
 
+  prod_panier = []
   prods: any = detailProduct.product
   ishidden: boolean = false;
   searchbar:string = ""
@@ -22,6 +22,7 @@ export class SearchPage implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
+    
   }
 
   public show_search(key){
@@ -62,7 +63,7 @@ export class SearchPage implements OnInit {
       }
     } 
     console.log(this.arrayProduct);
-    
   }
 
+  
 }

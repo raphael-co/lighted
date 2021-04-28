@@ -1,9 +1,35 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
     <ion-title>panier</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+  <ion-content>
+    <ion-row  *ngFor="let product of arrayProd" >
+      <ion-card  class="card-product">
+        <ion-card-header>
+          <ion-card-subtitle style="color: whitesmoke;font-size: 150%;">{{product.title}}-{{product.name}} </ion-card-subtitle>
+          <img src=" {{img}}{{product.image}}" alt="" style="width: 60%;">
+        </ion-card-header>
+      
+        <ion-card-content>
+          <ion-col>
+            <ion-icon (click)="getProdToDelete(product.id)" style="font-size: 24px; margin-left: 90%;" name="trash"></ion-icon>
+          </ion-col>
+            <p> prix :  {{product.prix}} €</p>
+  
+        </ion-card-content>
+      
+      </ion-card>
+    </ion-row>
+    <ion-button *ngIf="show" (click)="validAchat()" style="align-items: center; display: flex; --background: linear-gradient(to bottom, #f7f7f7, #e4e2ea, #d1ccdd, #c0b7cf, #b0a2c1);">Valider le panier<ion-icon name="basket"></ion-icon></ion-button>
+  <h3 *ngIf="!show" style="text-align: center;"> Votre panier est vide </h3>
+  </ion-content>
+  
+ 
 </ion-content>

@@ -2,15 +2,23 @@ import detailProduct from '../../../assets/detailProduct.json';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router,NavigationEnd } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { ToastController } from '@ionic/angular';
+import { SearchPage } from '../search/search.page';
+import { AppComponent } from '../../app.component';
 
 
 @Component({
   selector: 'app-type-search',
   templateUrl: './type-search.page.html',
   styleUrls: ['./type-search.page.scss'],
+  providers:[
+    SearchPage
+  ]
 })
+
 export class TypeSearchPage implements OnInit {
 
+  
   description_hidden = true
   prods : any = detailProduct.product;
   item:any = "";
@@ -19,7 +27,7 @@ export class TypeSearchPage implements OnInit {
   arrayProd = [];
   img = "../../../assets/img/"
 
-  constructor(private router: Router,private route: ActivatedRoute, public http: HttpClient) {}
+  constructor(private router: Router, public http: HttpClient, private search: AppComponent) {}
 
    
   ngOnInit() {
@@ -29,8 +37,6 @@ export class TypeSearchPage implements OnInit {
     console.log(this.prods);
 
     this.getProduct();
-     
-    console.log(this.arrayProd);
 
   }
 
@@ -42,6 +48,10 @@ export class TypeSearchPage implements OnInit {
         this.arrayProd.push(this.prods[i]);
       }
     }
+  }
+
+  addProduct(id){
+    this.search.addProduct(id)
   }
 
 }
