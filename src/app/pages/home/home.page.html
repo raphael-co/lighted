@@ -1,19 +1,23 @@
 <ion-content>
     <ion-row align-items no-padding class="photoDouble">
-        <div class="photo1">
-            <p class="P-photo1">Voir les <br>appareils <br>du moments !</p>
-        </div>
+        <ion-col>
+            <div routerLink="/type-search" [state]="{ example: 'true' }" class="photo1">
+                <p class="P-photo1">Voir les <br>appareils <br>du moment</p>
+
+            </div>
+        </ion-col>
+
     </ion-row>
     <ion-row align-items no-padding class="photoDouble">
         <ion-col>
-            <div class="photoDouble2">
-                <p class="P-photoDouble">Voir les <br>objectifs</p>
+            <div routerLink="/type-search" [state]="{ example: 'Objectifs' }" class="photoDouble2 ">
+                <p class="P-photoDouble P-photoDouble2">Voir les <br>objectifs</p>
 
             </div>
         </ion-col>
         <ion-col>
-            <div class="photoDouble1">
-                <p class="P-photoDouble P-photoDouble2">Voir les <br>accessoires</p>
+            <div routerLink="/type-search" [state]="{ example: 'Accessoire' }" class="photoDouble1 ">
+            <p class="P-photoDouble P-photoDouble2">Voir les <br>accessoires</p>
 
             </div>
         </ion-col>
@@ -24,13 +28,33 @@
         </div>
     </ion-row>
     <ion-row align-items no-padding class="categorie">
-        <div class="photo3 ">
+        <div routerLink="/type-search" [state]="{ example: 'nikon' }" class="photo3 ">
             <p class="P-photoCat">Nikon</p>
         </div>
     </ion-row>
-    <ion-row align-items no-padding class="categorie ">
-        <div class="photo4 ">
+    <ion-row  align-items no-padding class="categorie ">
+        <div routerLink="/type-search" [state]="{ example: 'canon' }" class="photo4 ">
             <p class="P-photoCat">Canon</p>
+        </div>
+    </ion-row>
+    <ion-row  align-items no-padding class="categorie ">
+        <div routerLink="/type-search" [state]="{ example: 'sony' }" class="photo5">
+            <p class="P-photoCat">sony</p>
+        </div>
+    </ion-row>
+    <ion-row  align-items no-padding class="categorie ">
+        <div routerLink="/type-search" [state]="{ example: 'gopro' }" class="photo6">
+            <p class="P-photoCat">gopro</p>
+        </div>
+    </ion-row>
+    <ion-row  align-items no-padding class="categorie ">
+        <div routerLink="/type-search" [state]="{ example: 'polaroïd' }" class="photo7">
+            <p class="P-photoCat">polaroïd</p>
+        </div>
+    </ion-row>
+     <ion-row  align-items no-padding class="categorie ">
+        <div routerLink="/type-search" [state]="{ example: 'fujifilm' }" class="photo8">
+            <p class="P-photoCat">fujifilm</p>
         </div>
     </ion-row>
 </ion-content>

@@ -3,6 +3,7 @@
     <ion-row class="logo">
         <ion-col size="12" class="ion-align-self-center">
             <img src="assets/icon/logo2-transparant.png" alt="">
+            <p class="marque">Lighted</p>
         </ion-col>
     </ion-row>
     <ion-row class="form">
@@ -20,7 +21,8 @@
             <p class="forgot" (click)="forgotPassword()">mot de passe oublié?</p>
         </ion-col>
         <ion-col size="12">
-            <ion-button [disabled]="isErrorMail || password.trim().length < 5" expand="full" class="btnLogin" (click)="loginForm()">Login</ion-button>
+            <ion-button  expand="full" class="btnLogin" (click)="loginForm()">Login</ion-button>
+            <!-- <ion-button [disabled]="isErrorMail || password.trim().length < 5" expand="full" class="btnLogin" (click)="loginForm()">Login</ion-button> -->
         </ion-col>
 
     </ion-row>

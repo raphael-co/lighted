@@ -29,7 +29,6 @@ export class TypeSearchPage implements OnInit {
     console.log(this.prods);
 
     this.getProduct();
-     
     console.log(this.arrayProd);
 
   }
@@ -38,7 +37,7 @@ export class TypeSearchPage implements OnInit {
     let nameProd
     for(let i = 0; i < this.prods.length; i++){
       nameProd = this.prods[i].title+"-"+this.prods[i].name
-      if(this.prods[i].categorie == this.item || nameProd == this.item){
+      if(this.prods[i].apparatusOfMoment == this.item || this.prods[i].title == this.item ||this.prods[i].categorie == this.item || nameProd == this.item){
         this.arrayProd.push(this.prods[i]);
       }
     }
