@@ -24,7 +24,8 @@ export class ProfilPage implements OnInit {
       window.localStorage.clear();
       this.router.navigate(['/login'])
     } else {
-        await this.storage.clear();
+        await this.storage.remove("Product");
+        await this.storage.clear();        
         this.router.navigate(['/login'])
       }
   }
