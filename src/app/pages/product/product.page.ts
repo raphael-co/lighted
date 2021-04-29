@@ -25,7 +25,6 @@ export class ProductPage implements OnInit {
   constructor(private router: Router, private search: AppComponent) { }
 
   ngOnInit() {
-    console.log(this.item = this.router.getCurrentNavigation().extras.state.example);
     this.name = this.item.name
     this.prix = this.item.prix
     this.description = this.item.description

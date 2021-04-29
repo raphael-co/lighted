@@ -18,7 +18,7 @@ export class PanierPage implements OnInit {
 
   show = false
   prods: any = detailProduct.product
-  arrayProd = JSON.parse(localStorage.getItem('Product'))
+  arrayProd;
   img = "../../../assets/img/"
 
   constructor(public product: TypeSearchPage, public alertController: AlertController, private loading: LoadingController, private toast: ToastController) { }
@@ -73,6 +73,7 @@ export class PanierPage implements OnInit {
             let prod = Object.assign(array)
             localStorage.removeItem('Product')
             localStorage.setItem('Product', JSON.stringify(prod));
+            
             this.myDefaultMethodToFetchData();
           }
         }
