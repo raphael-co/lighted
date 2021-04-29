@@ -3,7 +3,7 @@
     <ion-row class="logo">
         <ion-col size="12" class="ion-align-self-center">
             <img src="assets/icon/logo2-transparant.png" alt="">
-            <p class="marque">Lighted</p>
+            <ion-label class="marque">Lighted</ion-label>
         </ion-col>
     </ion-row>
     <ion-row class="form">
@@ -12,7 +12,7 @@
                 <ion-label position="floating">Email</ion-label>
                 <ion-input (keydown)="checkEmail()" type="email" [(ngModel)]="email"></ion-input>
             </ion-item>
-            <ion-item [ngClass]="password.trim().length < 5 ? 'errorEmail' : 'goodEmail'">
+            <ion-item [ngClass]="password.trim().length < 1 ? 'errorEmail' : 'goodEmail'">
                 <ion-label position="floating">Mot de passe</ion-label>
                 <ion-input type="password" [(ngModel)]="password"></ion-input>
             </ion-item>
