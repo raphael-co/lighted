@@ -71,8 +71,8 @@ export class LoginPage implements OnInit {
         await load.present();
         this.auth.login(this.email, this.password).then(async(user: any) => {
                 if (this.platform.is("desktop")) {
-                    localStorage.setItem('theToken', user.theToken)
-                    localStorage.setItem('user', JSON.stringify(user.user))
+                    localStorage.setItem('theToken', user.token)
+                    localStorage.setItem('user', JSON.stringify(this.email))
                 } else {
                     await this.storage.setItem('theToken', user.theToken)
                     await this.storage.setItem('user', JSON.stringify(user.user))

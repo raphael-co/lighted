@@ -8,6 +8,9 @@ import { MenuController } from '@ionic/angular'
 })
 export class McommandesPage implements OnInit {
 
+  arrayProd = JSON.parse(localStorage.getItem('PduitAcheté'))
+  img = "../../../assets/img/"
+
   constructor(private menu: MenuController) { }
 
   ngOnInit() {

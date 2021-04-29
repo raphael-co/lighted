@@ -10,23 +10,17 @@
 </ion-header>
 
 <ion-content>
-  <ion-row *ngFor="let product of arrayProd" >
-    <ion-card class="card-product">
-      <ion-card-header>
-        <ion-card-subtitle style="color: whitesmoke;font-size: 150%;">{{product.title}}-{{product.name}} </ion-card-subtitle>
-        <img src=" {{img}}{{product.image}}" alt="" style="width: 60%;">
+  <ion-row >
+    <ion-col  size="6" class="card-product" *ngFor="let product of arrayProd" >
+      <ion-card-header  routerLink="/product" [state]="{ example: product }" style="border: rgb(172, 172, 172) 1px; border-style: solid;">
+        <img src=" {{img}}{{product.image}}" alt="" style="width: 100%;">
       </ion-card-header>
     
-      <ion-card-content>
-
-          <ion-button (click)="addProduct(product)" color="medium">Ajouter au panier <ion-icon name="add-circle"></ion-icon></ion-button>
-          
-          <p> prix :  {{product.prix}} €</p>
-          
-          <p> description <i class="ion-text-wrap" style="font-size: small;"> : {{product.description}} </i> </p>
-
-      </ion-card-content>
-    
-    </ion-card>
+      <div>
+        <p style="font-size: small;">{{product.prix}} €</p>
+        <ion-card-subtitle style="font-size: small;">{{product.name}} </ion-card-subtitle>
+        
+      </div>
+    </ion-col>
   </ion-row>
 </ion-content>

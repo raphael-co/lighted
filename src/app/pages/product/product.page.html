@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{name}} </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row >
+    <ion-col  size="12" class="card-product" >
+      <ion-card-header style="border: rgb(172, 172, 172) 1px; border-style: solid;">
+        <img src="{{image}}" alt="" style="width: 100%;">
+      </ion-card-header>
+    
+      <div>
+        <ion-card-subtitle style="font-size: medium;">{{title}} </ion-card-subtitle>
+        <br>
+        <ion-button (click)="addProduct(item)" style="--background: linear-gradient(to right bottom, #b0a2c1, #c0b7cf, #d1ccdd, #e4e2ea, #f7f7f7);">Ajouter au panier</ion-button>
+        <p style="font-size: small;">{{prix}} €</p>
+        
+        
+        <p> Description <i class="ion-text-wrap" style="font-size: small;"> : {{description}} </i> </p>
+
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-content>
