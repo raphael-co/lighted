@@ -92,7 +92,7 @@ export class PanierPage implements OnInit {
     const alert = await this.alertController.create({
       cssClass: 'my-custom-class',
       header: 'Achat',
-      message: '<strong>Confirmez vous votre achat pour un montant total de </strong>'+ montantTotal +'€',
+      message: '<strong>Confirmez vous votre achat ? </strong>',
       buttons: [
         {
           text: 'Non merci',
@@ -117,8 +117,10 @@ export class PanierPage implements OnInit {
 
             let array = []
             let prod = Object.assign(array)
+            let prod2 = Object.assign(this.arrayProd)
             localStorage.removeItem('Product')
             localStorage.setItem('Product', JSON.stringify(prod));
+            localStorage.setItem('PduitAcheté', JSON.stringify(prod2));
             this.myDefaultMethodToFetchData();
           }
         }

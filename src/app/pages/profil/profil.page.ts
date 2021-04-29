@@ -12,6 +12,8 @@ import { Platform } from '@ionic/angular';
 })
 export class ProfilPage implements OnInit {
 
+  email = JSON.parse(localStorage.getItem('user'))
+
   constructor( private router: Router,private platform: Platform,private storage: NativeStorage) { }
 
   ngOnInit() {
