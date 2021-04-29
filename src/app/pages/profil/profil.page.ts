@@ -18,8 +18,6 @@ export class ProfilPage implements OnInit {
   }
 
   async logout(){
-    
-
     if (this.platform.is("desktop")) {
       window.localStorage.clear();
       this.router.navigate(['/login'])

@@ -10,7 +10,7 @@ import { UserRegister } from '../interfaces/user-register';
 })
 export class AuthService {
 
-    url: string = 'https://lighted-14685.nodechef.com/auth'; // aaaaaaa@aaaaaaa.fr
+    url: string = 'https://lighted-14685.nodechef.com/auth'; 
 
     constructor(private http: HttpClient) {}
 
