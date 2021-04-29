@@ -7,9 +7,9 @@
         "title": "sony",
         "categorie": "Compact & Bridge",
         "image": "son-id1.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Fonction détection des sourires; Fonction détection des visages; Fonction HDR; Mode rafale; Mode retardateur; Portée max. du flash : 10.8 m; Capture son : Stéréo; Modes de prise de vue : P/A/S/M en vidéo et en HFR 13 effets créatifs (Toy camera, Pop Postérisation, Rtro, Soft, High Key, Couleur Partielle, Mono High contrast, Soft focus, HDR, Monochrome riche, Miniature, Aquarelle, Illustration) - 7 effets vidéos - Flash intégré.; Stabilisateur : Oui .",
-        "apparatusOfMoment": "true",
+        "apparatusOfMoment": "Appareil du moment",
         "prix":"1899,00"
       },
       {
@@ -18,7 +18,7 @@
         "title": "canon",
         "categorie": "Compact & Bridge",
         "image": "canon-id2.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Associant la polyvalence d'un objectif à zoom 25x et les performances d'imagerie haut de gamme d'un capteur de type 1,0, le PowerShot G3 X peut prendre des photos et vidéos d'une qualité saisissante. Le grand nombre de fonctionnalités et de commandes professionnelles vous aide à exprimer toute votre créativité.",
         "prix":"595,00"
 
@@ -29,7 +29,7 @@
         "title": "nikon",
         "categorie": "Compact & Bridge",
         "image": "nikon-id3.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Avec le P510 Nikon bat un nouveau record de zoom avec un facteur multiplicateur de 42x et surtout le dépassement d'un nombre magique pour une focale : 1000 mm ! Une plage de zoom extraordinaire couplée à un capteur BSI Cmos 16 Mpx, un GPS, un écran inclinable et un mode vidéo de bon aloi.",
         "prix":"229,00"
 
@@ -40,7 +40,7 @@
         "title": "fujifilm",
         "categorie": "Compact & Bridge",
         "image": "fujifilm-id4.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Un bridge haut de gamme avec grand capteur haute sensibilité !Le X-S 1 est équipé d'un capteur de 12 mégapixels. La combinaison parfaite du large capteur EXR CMOS de 2/3 pouces et du processeur EXR garantit une grande réactivité et résolution. Ce capteur est particulièrement performant en conditions d'éclairages difficiles, ce qui améliore sa sensibilité et réduit le bruit lors de prises de vue avec peu de lumière.Son objectif grand angle zoome jusqu'à 26x, couvrant une plage de focales particulièrement étendue (24-624 mm en équivalent 24-36). Il peut ainsi photographier des plans larges ou vous rapprocher des sujets très éloignés, utile pour les scènes de sport ou scènes animalières. La sensibilité élevée à la lumière (jusqu'à 12 800 ISO) diminue le risque de photo floues lorsque vous photographiez des sujets en mouvement, ou dans des conditions de faibles luminosités (scènes d'intérieur ou en soirée).Le mode Macro photographie un sujet en gros plan à 1 cm de distance seulement pour en saisir les détails les plus minitieux de façon nette, un plus pour photographier fleurs et insectes.Le mode rafale vous assure de ne pas manquer LA photo pendant une scène d'action : saisissez l'action à 7 images/sec. à pleine résolution.Le grand écran de 7,6 cm inclinable permet de cadrer facilement et est assez grand pour visionner confortablement ses clichés. Le viseur électronique couleur de 1,1 cm aide à effectuer un cadrage précis sur toute le plage de focales, et une prise de vue nette et stable, même en plein soleil lorsque l'écran LCD est plus difficilement utilisable. Sa haute résolution (1,4 Mpixels) assure une excellente restitution des détails et des couleurs.Approchez votre oeil du viseur (EVF), le détecteur oculaire bascule automatiquement l'affichage de l'écran LCD vers le viseur électronique.",
         "prix":"729,00"
 
@@ -51,9 +51,10 @@
         "title": "nikon",
         "categorie": "Compact & Bridge",
         "image": "compactBridge.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo.",
-        "prix":"1899"
+        "prix":"1899",
+        "apparatusOfMoment": "Appareil du moment"
 
       },
 
@@ -66,7 +67,7 @@
         "title": "sony",
         "categorie": "Hybride",
         "image": "hybride1.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo.",
         "prix": "480,00"
       },
@@ -76,7 +77,7 @@
         "title": "nikon",
         "categorie": "Hybride",
         "image": "nikon-id7.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nikon présente avec le Z6 un hybride plein-format aux caractéristiques impressionnantes : capteur 24,5 Mp, 273 points AF et vidéo 4K UHD 30p pour ne citer qu'eux... ",
         "prix": "1186,99"
       },
@@ -86,9 +87,11 @@
         "title": "canon",
         "categorie": "Hybride",
         "image": "canon-id8.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n L'EOS R est le premier appareil photo à prendre en charge la gamme d'objectifs à monture RF de Canon. Cependant, il reste compatible avec les objectifs à monture EF et EF-S de la marque grâce à une gamme de bagues d'adaptation dédiée. L'utilisation d'optiques de type EF-S implique un crop de 11.6 millions de pixels correspondant à la différence de format entre APS-C et plein format, le résultat obtenu est une image d'environ 19MP.",
-        "prix": "1999,90"
+        "prix": "1999,90",
+        "apparatusOfMoment": "Appareil du moment"
+        
       },
       {
         "id":9,
@@ -96,7 +99,7 @@
         "title": "fujifilm",
         "categorie": "Hybride",
         "image": "fujifilm-id9.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Un boîtier hybride compact doté de technologies de pointe pour faire ressortir votre meilleur en tant que photographe. La portabilité et la puissance de cet appareil photo vous permettront de vous connecter avec vos sujets comme jamais auparavant. Le X-S10 vous aide à libérer votre créativité à son maximum.",
         "prix": "1499,00"
       },
@@ -106,7 +109,7 @@
         "title": "sony",
         "categorie": "Hybride",
         "image": "sony-id10.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Le Sony Alpha 7 III est idéal pour les amateurs de clichés en Haute Définition, ce plein format comporte un capteur CMOS à 24 Mégapixels. Doté d’une stabilisation d’image à 5 axes, d’une sensibilité allant jusqu’à 51 200 ISO, d’un système de mise au point automatique Fast Hybrid permettant d’obtenir une image nette et d’un enregistrement vidéo en 4K.",
         "prix": "2 999,00"
       },
@@ -119,9 +122,10 @@
         "title": "canon",
         "categorie": "Reflexe",
         "image": "canon_reflex.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Associant la polyvalence d'un objectif à zoom 25x et les performances d'imagerie haut de gamme d'un capteur de type 1,0, le PowerShot G3 X peut prendre des photos et vidéos d'une qualité saisissante. Le grand nombre de fonctionnalités et de commandes professionnelles vous aide à exprimer toute votre créativité.",
-        "prix": "2999,00"
+        "prix": "2999,00",
+        "apparatusOfMoment": "Appareil du moment"
       },
       {
         "id":12,
@@ -129,7 +133,7 @@
         "title": "sony",
         "categorie": "Reflexe",
         "image": "sony-id12.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Avec un poids de seulement 416 g avec la batterie, le α7 est environ deux fois plus léger que les principaux reflex numériques. Etant moins volumineux également, il n'est plus nécessaire de sacrifier la qualité pour la portabilité.\n La perfection pour tous \n Découvrez le compact plein format α7 : portabilité et capacités pro. Doté d'un capteur 24,3 Mpx 35 mm dans un boîtier deux fois plus léger que les reflex numériques, il établit la norme sur le marché.",
         "prix": "720,00"
       },
@@ -139,7 +143,7 @@
         "title": "nikon",
         "categorie": "Reflexe",
         "image": "nikon-id13.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Adhérents : 10 € offerts tous les 100 € d’achat avec le code promo FNAC10 Offre réservée aux adhérents titulaires d’une carte Fnac en cours de validité, valable dans la limite des stocks disponibles, du Mercredi 28 Avril à 09h00 au Vendredi 30 Avril à 23h59, sur Fnac.com avec le code promo FNAC10 (à saisir en majuscule) et en magasins (pour les magasins ouverts) sur présentation du code-barre reçu par mail. Le compte fidélité de l’adhérent sera automatiquement crédité de 10€ tous les 100€ d’achat (hors Ecopart) lors d’un même passage en caisse (hors Livres, MarketPlace, iPhone 12/12 Mini/12 Pro/12 Pro Max, toutes les nouveautés Apple smartphones/objets connectés/accessoires Airtag, tous les nouveaux iMac/iPad Pro/AppleTV/accessoires Apple, casque Apple AirPods Max, TV Samsung 65Q95T, QN95A, QN800A, QN900A, TV Sony XH8096, XH9096, A8, A9, photo Hasselblad, Leica",
         "prix": "1049,00"
       },
@@ -149,9 +153,10 @@
         "title": "canon",
         "categorie": "Reflexe",
         "image": "canon-id14.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Obtenez des résultats professionnels avec un contrôle total et une ergonomie optimale grâce à cet appareil photo compact Wi-Fi haut de gamme, doté d'un objectif lumineux f/1.8-2.8, d'un capteur de type 1,0 et d'un grand viseur de qualité supérieure pour une manipulation semblable à celle des reflex numériques",
-        "prix": "749,99"
+        "prix": "749,99",
+        "apparatusOfMoment": "Appareil du moment"
       },
 
 
@@ -163,7 +168,7 @@
         "title": "gopro",
         "categorie": "CamSport",
         "image": "goPro.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo.",
         "prix": "329,98"
       },      
@@ -173,7 +178,7 @@
         "title": "gopro",
         "categorie": "CamSport",
         "image": "gopro-id17.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo.",
         "prix": "379,98"
       },
@@ -183,9 +188,10 @@
         "title": "gopro",
         "categorie": "CamSport",
         "image": "gopro-id18.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo.",
-        "prix": "429,98"
+        "prix": "429,98",
+        "apparatusOfMoment": "Appareil du moment"
       },
 
 
@@ -197,7 +203,7 @@
         "title": "polaroïd",
         "categorie": "Instantané",
         "image": "polaroid.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo.",
         "prix": "129,00"
       },
@@ -207,7 +213,7 @@
         "title": "fujifilm",
         "categorie": "Instantané",
         "image": "polaroïd-id22.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \nGrâce à un flash haute performance, l'appareil photo FUJIFILM INSTAX Mini 11 calcule automatiquement la luminosité environnante et ajuste la vitesse d'obturation, pour éviter les réglages spécifiques. Ainsi, vos photos sont toujours claires et de bonne qualité pour un rendu instantané exceptionnel, même dans des pièces sombres.\n\nPour des prises de vues rapprochées nettes et claires, utilisez le mode Selfie de l'appareil photo FUJIFILM INSTAX Mini 11. Ainsi, vous pouvez photographier jusqu'à 30 cm du sujet, et vérifier votre cadrage grâce au miroir à côté de l'objectif. Aucun risque de rater votre selfie entre amis ou le focus sur votre chien.",
         "prix": "79,99"
       },
@@ -217,7 +223,7 @@
         "title": "fujifilm",
         "categorie": "Instantané",
         "image": "polaroïd-id23.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Devenez le roi de la photographie instantanée grâce à l'appareil photo numérique FUJI Instax Wide 300 ! Soyez créatif et obtenez vos photos tout de suite en profitant toujours d'images de qualité ! Des photos instantanées en un clin d'oeil L'appareil photo numérique FUJI Instax Wide 300 est le compagnon idéal pour des prises de vue instantanées qui mettront de l'ambiance lors de vos fêtes.",
         "prix": "119,00"
       },
@@ -227,9 +233,10 @@
         "title": "polaroïd",
         "categorie": "Instantané",
         "image": "polaroïd-id24.png",
-        "type": "",
+        "type": "appareil-photo",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo.",
-        "prix": "480,00"
+        "prix": "480,00",
+        "apparatusOfMoment": "Appareil du moment"
       },
 
 
@@ -254,7 +261,8 @@
         "image": "nikon-id27.png",
         "type": "",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo.",
-        "prix": "279,00"
+        "prix": "279,00",
+        "apparatusOfMoment": "Appareil du moment"
       },
       {
         "id":28,
@@ -278,7 +286,8 @@
         "image": "accessoire.png",
         "type": "",
         "description": "UNE OPÉRABILITÉ PROFESSIONNELLE AVANCÉE : \n Nouveau menu issu de l'Alpha 7SIII, batterie Z haute capacité, HDMI 2.1, Ethernet et Wi-Fi ultrarapide, double slot mémoire bi-format SD-UHSII et CF Express Type A; un outil parfait pour les professionnels de l'image qui veulent tirer le meilleur parti de leur appareil photo.",
-        "prix": "480,00"
+        "prix": "480,00",
+        "apparatusOfMoment": "Appareil du moment"
       },
       {
         "id":32,

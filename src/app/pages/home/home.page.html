@@ -1,7 +1,12 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="header-marque">Lighted</ion-title>
+    </ion-toolbar>
+  </ion-header>
 <ion-content>
     <ion-row align-items no-padding class="photoDouble">
         <ion-col>
-            <div routerLink="/type-search" [state]="{ example: 'true' }" class="photo1">
+            <div routerLink="/type-search" [state]="{ example: 'Appareil du moment' }" class="photo1">
                 <p class="P-photo1">Voir les <br>appareils <br>du moment</p>
 
             </div>
@@ -23,8 +28,8 @@
         </ion-col>
     </ion-row>
     <ion-row align-items no-padding class="photoDouble">
-        <div class="photo2">
-            <p class="P-photo2">Pas<br>d'inspi <br>a revoir !!</p>
+        <div class="photo2" routerLink="/type-search" [state]="{ example: 'appareil-photo' }" >
+            <p class="P-photo2">Tout nos<br>Appareil !!</p>
         </div>
     </ion-row>
     <ion-row align-items no-padding class="categorie">
