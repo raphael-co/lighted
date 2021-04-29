@@ -109,4 +109,66 @@ p {
             color: white;
         }
     }
+
+    .photo5 {
+        filter: grayscale(0%);
+        height: 15vh;
+        width: 90%;
+        background-image: url("https://farm6.staticflickr.com/5715/22738248040_e662ccb6fe_b.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        .P-photoCat {
+            margin: 0;
+            color: white;
+        }
+    }
+    .photo6 {
+        filter: grayscale(0%);
+        height: 15vh;
+        width: 90%;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2kWOOq83WzmVI2Jz2nvpaV-vDjL6l9iISPQ&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        .P-photoCat {
+            margin: 0;
+            color: white;
+        }
+    }
+    .photo7 {
+        filter: grayscale(0%);
+        height: 15vh;
+        width: 90%;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOZOLWB513Wb0dx6SWDJivOMTN0BfMCk91Q&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        .P-photoCat {
+            margin: 0;
+            color: white;
+        }
+    }
+
+    .photo8 {
+        filter: grayscale(0%);
+        height: 15vh;
+        width: 90%;
+        background-image: url("https://cdn.futura-sciences.com/buildsv6/images/wide1920/d/1/8/d18d00817f_50164033_fujifilm.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        .P-photoCat {
+            margin: 0;
+            color: white;
+        }
+    }
 }
