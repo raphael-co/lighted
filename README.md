@@ -1,5 +1,7 @@
 # lighted
 installation des dependandances :
+npm i
+
 npm install @capacitor/cli
 
 npm install capacitor-plugin-nativestorage
@@ -7,11 +9,7 @@ npm install capacitor-plugin-nativestorage
 npm install cordova-plugin-camera
 
 npm install @capacitor/cli
-
-npm install -g cordova-res
-
-npm i 
-
+ 
 npm i @ionic-native/core@^5.1.0
 
 npm install jetifier
