@@ -18,7 +18,7 @@ export class AppComponent {
     
     const toast = await this.toast.create({
       message: "Votre produit à été ajouter au panier",
-      duration: 5000,
+      duration: 2000,
       position: 'top',
       color: 'light'
   });
