@@ -1,0 +1,182 @@
+.header-marque{
+    text-align: center;
+    font-size: 140%;
+    color: #B0A2C1;
+    font-family: Courier;
+    font-weight: bold;
+}
+
+
+p {
+    font-weight: bold
+}
+
+.photo1 {
+    filter: grayscale(0%);
+    height: 30vh;
+    width: 90%;
+    background-image: url("https://inuk.fr/wp-content/uploads/2013/12/atelier-materiel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: xx-large;
+    text-align: center;
+    margin: auto;
+    p {
+        padding-top: 9%;
+        margin: 0;
+        color: white;
+    }
+}
+
+.photoDouble {
+    margin-top: 5%;
+    .photoDouble1 {
+        padding: 0%;
+        height: 20vh;
+        width: 100%;
+        background-image: url("../../../assets/img/homme-accesoir.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photoDouble2 {
+        padding: 0%;
+        height: 20vh;
+        width: 100%;
+        background-image: url("https://phototrend.fr/wp-content/uploads/2014/12/lenses-940x435.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .P-photo1 {
+        text-align: center;
+        padding-top: 9%;
+        margin: 0;
+        color: white;
+    }
+    .P-photoDouble {
+        text-align: center;
+        padding-top: 30%;
+        margin: 0;
+        color: white;
+    }
+    .P-photoDouble2 {
+        text-align: center;
+        padding-top: 30%;
+        margin: 0;
+        color: wheat !important;
+    }
+}
+
+.photo2 {
+    filter: grayscale(0%);
+    height: 20vh;
+    width: 90%;
+    background-image: url("../../../assets/img/tout-appareil.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+    .P-photo2 {
+        padding-top: 10%;
+        margin: 0;
+        color: white;
+        font-size: X-large;
+    }
+}
+
+.categorie {
+    margin-bottom: 5%;
+    .photo3 {
+        filter: grayscale(0%);
+        height: 15vh;
+        width: 90%;
+        background-image: url("https://cdn-4.nikon-cdn.com/e/Q5NM96RZZo-RRZZFeeMiveET0gVQ--AxJI7g-xcLVNVcp7mdwZQz5w==/Overview/marketing-hero-z6-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        .P-photoCat {
+            margin: 0;
+            color: white;
+        }
+    }
+    .photo4 {
+        filter: grayscale(0%);
+        height: 15vh;
+        width: 90%;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlGnLcLcipn38rh0d5DGAq4BQmAWKCuxzaAA&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        .P-photoCat {
+            margin: 0;
+            color: white;
+        }
+    }
+
+    .photo5 {
+        filter: grayscale(0%);
+        height: 15vh;
+        width: 90%;
+        background-image: url("https://farm6.staticflickr.com/5715/22738248040_e662ccb6fe_b.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        .P-photoCat {
+            margin: 0;
+            color: white;
+        }
+    }
+    .photo6 {
+        filter: grayscale(0%);
+        height: 15vh;
+        width: 90%;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2kWOOq83WzmVI2Jz2nvpaV-vDjL6l9iISPQ&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        .P-photoCat {
+            margin: 0;
+            color: white;
+        }
+    }
+    .photo7 {
+        filter: grayscale(0%);
+        height: 15vh;
+        width: 90%;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOZOLWB513Wb0dx6SWDJivOMTN0BfMCk91Q&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        .P-photoCat {
+            margin: 0;
+            color: white;
+        }
+    }
+
+    .photo8 {
+        filter: grayscale(0%);
+        height: 15vh;
+        width: 90%;
+        background-image: url("https://cdn.futura-sciences.com/buildsv6/images/wide1920/d/1/8/d18d00817f_50164033_fujifilm.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        .P-photoCat {
+            margin: 0;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+      <ion-title style="float: right;">{{item}}</ion-title>
+    </ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row >
+    <ion-col  size="6" class="card-product" *ngFor="let product of arrayProd" >
+      <ion-card-header  routerLink="/product" [state]="{ example: product }" style="border: rgb(172, 172, 172) 1px; border-style: solid;">
+        <img src=" {{img}}{{product.image}}" alt="" style="width: 100%; height: 15vh;">
+      </ion-card-header>
+    
+      <div>
+        <p style="font-size: small;">{{product.prix}} €</p>
+        <ion-card-subtitle style="font-size: small;">{{product.name}} </ion-card-subtitle>
+        
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-content>
