@@ -21,12 +21,15 @@ npx jetify
 ionic cap sync
 
 #Pour lancer le projet sur le web :
+
 ionic serve --lab
 
 #Pour lancer le projet sur Android :
+
 ionic capacitor run android
 
 #Pour lancer le projet sur ios :
+
 xcode-select --install
 ionic capacitor add ios
 ionic capacitor open ios
