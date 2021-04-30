@@ -25,12 +25,13 @@ export class ProductPage implements OnInit {
   constructor(private router: Router, private search: AppComponent) { }
 
   ngOnInit() {
+    this.item = this.router.getCurrentNavigation().extras.state.example
     this.name = this.item.name
     this.prix = this.item.prix
     this.description = this.item.description
     this.image = this.img+ this.item.image
     this.title = this.item.title
-    // console.log(this.image);
+    // console.log(this.item);
     
   }
 
