@@ -1,6 +1,7 @@
 # lighted
 
 #installation des dependandances :
+
 npm i
 
 npm install @capacitor/cli
